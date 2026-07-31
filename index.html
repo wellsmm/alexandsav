@@ -2,13 +2,15 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="Celebrate the engagement of Alex Wells and Savannah Mendoza.">
   <meta name="theme-color" content="#173427">
+
   <meta property="og:title" content="Alex & Savannah Are Engaged">
-  <meta property="og:description" content="A forest proposal, a joyful yes, and the beginning of forever.">
+  <meta property="og:description" content="A beautiful proposal, a joyful yes, and the beginning of forever.">
   <meta property="og:type" content="website">
-  <meta property="og:image" content="assets/images/social-preview.jpg">
+  <meta property="og:image" content="images/engagement-social-preview.jpg">
+
   <title>Alex & Savannah | Engaged</title>
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -17,89 +19,105 @@
   <link rel="stylesheet" href="assets/styles.css">
   <script src="assets/script.js" defer></script>
 </head>
+
 <body>
-  <a class="skip-link" href="#main">Skip to main content</a>
+  <a class="skip-link" href="#main-content">Skip to main content</a>
 
   <header class="site-header" data-header>
-    <a class="monogram" href="#top" aria-label="Alex and Savannah engagement homepage">
-      <span>A</span><b>&amp;</b><span>S</span>
+    <a class="brand" href="#top" aria-label="Alex and Savannah engagement homepage">
+      <span class="brand-mark">A <b>&amp;</b> S</span>
+      <span class="brand-text">Alex &amp; Savannah</span>
     </a>
 
-    <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="main-nav" data-nav-toggle>
+    <button class="menu-button" type="button" aria-expanded="false" aria-controls="primary-navigation" data-menu-button>
       <span class="sr-only">Toggle navigation</span>
-      <i aria-hidden="true"></i><i aria-hidden="true"></i><i aria-hidden="true"></i>
+      <i aria-hidden="true"></i>
+      <i aria-hidden="true"></i>
+      <i aria-hidden="true"></i>
     </button>
 
-    <nav id="main-nav" class="main-nav" aria-label="Primary navigation" data-nav>
+    <nav id="primary-navigation" class="primary-navigation" aria-label="Primary navigation" data-navigation>
+      <a href="#announcement">Announcement</a>
       <a href="#story">Our Story</a>
       <a href="#gallery">Gallery</a>
       <a href="#details">Details</a>
-      <a href="#wishes" class="nav-cta">Send Wishes</a>
+      <a class="nav-button" href="#wishes">Send Wishes</a>
     </nav>
   </header>
 
-  <main id="main">
+  <main id="main-content">
     <section id="top" class="hero" aria-labelledby="hero-title">
-      <img class="hero-photo" src="assets/images/hero-proposal.jpg" alt="Alex on one knee proposing to Savannah on a forest deck">
+      <img class="hero-image" src="images/proposal-bent-knee-surprise.jpg" alt="Alex on one knee proposing to Savannah on a deck surrounded by forest">
       <div class="hero-overlay" aria-hidden="true"></div>
-      <div class="hero-frame" aria-hidden="true"></div>
+      <div class="hero-border" aria-hidden="true"></div>
 
-      <div class="hero-copy">
-        <p class="overline">A beautiful yes</p>
+      <div class="hero-content">
+        <p class="hero-kicker">A beautiful yes</p>
+
         <h1 id="hero-title">
           <span>Alex</span>
-          <i>&amp;</i>
+          <b>&amp;</b>
           <span>Savannah</span>
         </h1>
-        <p class="engaged">Are Engaged</p>
-        <p class="hero-note">A forest proposal. A joyful beginning. A lifetime ahead.</p>
-        <a class="button button-light" href="#story">Enter Our Story</a>
+
+        <p class="hero-subtitle">Are Engaged</p>
+        <p class="hero-description">A forest proposal. A joyful beginning. A lifetime ahead.</p>
+
+        <div class="hero-actions">
+          <a class="button button-light" href="#announcement">Enter Our Story</a>
+          <a class="button button-outline" href="#gallery">View the Gallery</a>
+        </div>
       </div>
 
       <div class="hero-seal" aria-hidden="true">
-        <span>A</span><b>♡</b><span>S</span>
+        <span>A</span>
+        <b>♡</b>
+        <span>S</span>
       </div>
     </section>
 
-    <section class="announcement">
+    <section id="announcement" class="announcement section">
       <div class="botanical botanical-left" aria-hidden="true"></div>
       <div class="botanical botanical-right" aria-hidden="true"></div>
-      <div class="content narrow">
-        <p class="eyebrow">With joyful hearts</p>
+
+      <div class="content content-narrow">
+        <p class="section-kicker">With joyful hearts</p>
         <h2>We Said Yes to Forever</h2>
         <p class="lead">
           Alex Wells and Savannah Mendoza are thrilled to announce their engagement.
           Surrounded by evergreens, mountain views, and the people they love, a new
           chapter began.
         </p>
-        <div class="signature">Alex &amp; Savannah</div>
+        <p class="signature">Alex &amp; Savannah</p>
       </div>
     </section>
 
     <section id="story" class="story">
-      <div class="story-photo">
-        <img src="assets/images/proposal-ring.jpg" alt="Alex placing the engagement ring on Savannah's hand" loading="lazy">
-        <div class="story-number" aria-hidden="true">01</div>
+      <div class="story-image">
+        <img src="images/proposal-ring-presentation.jpg" alt="Alex placing the engagement ring on Savannah's hand" loading="lazy">
+        <span class="story-number" aria-hidden="true">01</span>
       </div>
 
       <div class="story-copy">
-        <p class="eyebrow">The moment</p>
+        <p class="section-kicker">The moment</p>
         <h2>One Question.<br>One Perfect Answer.</h2>
         <p>
           Their story has been shaped by shared adventures, quiet moments, and
           countless reasons to laugh. On this day, Alex got down on one knee,
           Savannah said yes, and forever suddenly felt close enough to touch.
         </p>
+
         <blockquote>
           “In all the world, there is no heart for me like yours.”
         </blockquote>
       </div>
     </section>
 
-    <section class="graphic-break">
-      <div class="graphic-break-card">
-        <img src="assets/images/champagne-ring.jpg" alt="Champagne toast with Savannah's engagement ring visible" loading="lazy">
-        <div class="graphic-break-copy">
+    <section class="feature-panel" aria-label="Champagne engagement celebration">
+      <div class="feature-card">
+        <img src="images/champagne-cheers-closeup.jpg" alt="Alex and Savannah toasting with champagne while Savannah shows her engagement ring" loading="lazy">
+        <div class="feature-shade" aria-hidden="true"></div>
+        <div class="feature-copy">
           <p>To love.</p>
           <p>To laughter.</p>
           <p>To forever.</p>
@@ -107,82 +125,98 @@
       </div>
     </section>
 
-    <section id="gallery" class="gallery">
+    <section id="gallery" class="gallery section" aria-labelledby="gallery-title">
       <div class="content">
         <div class="section-heading">
-          <p class="eyebrow">Captured moments</p>
-          <h2>The Engagement Gallery</h2>
-          <p>Each photograph tells part of the story. Select an image to view it larger.</p>
+          <p class="section-kicker">Captured moments</p>
+          <h2 id="gallery-title">The Engagement Gallery</h2>
+          <p>Select any photograph to view it larger.</p>
         </div>
 
-        <div class="masonry">
-          <button class="photo-card tall" type="button" data-image="assets/images/proposal-wide.jpg" data-alt="Alex and Savannah together immediately after the proposal">
-            <img src="assets/images/proposal-wide.jpg" alt="" loading="lazy">
-            <span>View Moment</span>
+        <div class="gallery-grid">
+          <button class="gallery-item gallery-item-tall" type="button"
+                  data-image="images/joyful-proposal-reaction.jpg"
+                  data-alt="Alex and Savannah together immediately after the proposal">
+            <img src="images/joyful-proposal-reaction.jpg" alt="" loading="lazy">
+            <span>View photo</span>
           </button>
 
-          <button class="photo-card" type="button" data-image="assets/images/portrait-bright.jpg" data-alt="Alex and Savannah smiling together with champagne">
-            <img src="assets/images/portrait-bright.jpg" alt="" loading="lazy">
-            <span>View Portrait</span>
+          <button class="gallery-item" type="button"
+                  data-image="images/happy-couple-portrait.jpg"
+                  data-alt="Alex and Savannah smiling together with champagne">
+            <img src="images/happy-couple-portrait.jpg" alt="" loading="lazy">
+            <span>View photo</span>
           </button>
 
-          <button class="photo-card" type="button" data-image="assets/images/toast-close.jpg" data-alt="Close-up of Alex and Savannah toasting with champagne">
-            <img src="assets/images/toast-close.jpg" alt="" loading="lazy">
-            <span>View Detail</span>
+          <button class="gallery-item" type="button"
+                  data-image="images/champagne-cheers-detail.jpg"
+                  data-alt="Close-up of Alex and Savannah toasting">
+            <img src="images/champagne-cheers-detail.jpg" alt="" loading="lazy">
+            <span>View photo</span>
           </button>
 
-          <button class="photo-card wide" type="button" data-image="assets/images/portrait-wide.jpg" data-alt="Alex and Savannah together against the forest landscape">
-            <img src="assets/images/portrait-wide.jpg" alt="" loading="lazy">
-            <span>View Portrait</span>
+          <button class="gallery-item gallery-item-wide" type="button"
+                  data-image="images/forest-engagement-smile.jpg"
+                  data-alt="Alex and Savannah posing together in front of the forest view">
+            <img src="images/forest-engagement-smile.jpg" alt="" loading="lazy">
+            <span>View photo</span>
           </button>
 
-          <button class="photo-card" type="button" data-image="assets/images/ring-show.jpg" data-alt="Savannah laughing and showing her engagement ring">
-            <img src="assets/images/ring-show.jpg" alt="" loading="lazy">
-            <span>View Celebration</span>
+          <button class="gallery-item" type="button"
+                  data-image="images/ring-announcement.jpg"
+                  data-alt="Savannah smiling and showing her engagement ring">
+            <img src="images/ring-announcement.jpg" alt="" loading="lazy">
+            <span>View photo</span>
           </button>
 
-          <button class="photo-card tall" type="button" data-image="assets/images/balcony.jpg" data-alt="Alex and Savannah standing on the deck after the proposal">
-            <img src="assets/images/balcony.jpg" alt="" loading="lazy">
-            <span>View Scene</span>
+          <button class="gallery-item gallery-item-tall" type="button"
+                  data-image="images/forest-engagement-portrait.jpg"
+                  data-alt="Alex and Savannah standing together on the deck after the proposal">
+            <img src="images/forest-engagement-portrait.jpg" alt="" loading="lazy">
+            <span>View photo</span>
           </button>
 
-          <button class="photo-card wide" type="button" data-image="assets/images/forest-wide.jpg" data-alt="Alex and Savannah standing together on the deck with the forest behind them">
-            <img src="assets/images/forest-wide.jpg" alt="" loading="lazy">
-            <span>View Landscape</span>
+          <button class="gallery-item gallery-item-wide" type="button"
+                  data-image="images/wide-engagement-overlook.jpg"
+                  data-alt="Alex and Savannah standing together against the forest landscape">
+            <img src="images/wide-engagement-overlook.jpg" alt="" loading="lazy">
+            <span>View photo</span>
           </button>
         </div>
       </div>
     </section>
 
-    <section class="full-bleed">
-      <img src="assets/images/deck-scene.jpg" alt="Alex and Savannah celebrating together on the forest deck" loading="lazy">
-      <div class="full-bleed-overlay" aria-hidden="true"></div>
-      <div class="full-bleed-copy">
-        <p class="eyebrow">The adventure begins</p>
+    <section class="full-width-feature" aria-label="The adventure begins">
+      <img src="images/wide-engagement-overlook.jpg" alt="Alex and Savannah celebrating together on the forest deck" loading="lazy">
+      <div class="full-width-shade" aria-hidden="true"></div>
+      <div class="full-width-copy">
+        <p class="section-kicker">The adventure begins</p>
         <h2>From This Day Forward</h2>
       </div>
     </section>
 
-    <section id="details" class="details">
+    <section id="details" class="details section" aria-labelledby="details-title">
       <div class="content">
-        <div class="section-heading light">
-          <p class="eyebrow">What comes next</p>
-          <h2>Celebration Details</h2>
+        <div class="section-heading section-heading-light">
+          <p class="section-kicker">What comes next</p>
+          <h2 id="details-title">Celebration Details</h2>
           <p>More information will be shared as plans are finalized.</p>
         </div>
 
         <div class="details-grid">
-          <article>
+          <article class="detail-card">
             <span>01</span>
             <h3>Engagement</h3>
             <p>The beginning of a beautiful new chapter.</p>
           </article>
-          <article>
+
+          <article class="detail-card">
             <span>02</span>
             <h3>Celebration</h3>
             <p>Engagement celebration details are coming soon.</p>
           </article>
-          <article>
+
+          <article class="detail-card">
             <span>03</span>
             <h3>Wedding</h3>
             <p>Date, location, and invitations will follow.</p>
@@ -193,45 +227,53 @@
 
     <section id="wishes" class="wishes">
       <div class="wishes-image">
-        <img src="assets/images/celebration.jpg" alt="Alex and Savannah smiling together with champagne" loading="lazy">
+        <img src="images/celebration-laughter.jpg" alt="Alex and Savannah smiling together with champagne" loading="lazy">
       </div>
 
       <div class="wishes-panel">
-        <p class="eyebrow">Celebrate with us</p>
+        <p class="section-kicker">Celebrate with us</p>
         <h2>Send Your Best Wishes</h2>
         <p>
-          Share a favorite memory, thoughtful message, or a little advice for the
-          couple as they begin this next chapter.
+          Share a favorite memory, a thoughtful message, or a little advice for
+          the couple as they begin this next chapter.
         </p>
 
         <form id="wishes-form" novalidate>
-          <label for="name">Your name</label>
-          <input id="name" name="name" type="text" autocomplete="name" required>
+          <div class="form-field">
+            <label for="guest-name">Your name</label>
+            <input id="guest-name" name="name" type="text" autocomplete="name" required>
+          </div>
 
-          <label for="email">Email address</label>
-          <input id="email" name="email" type="email" autocomplete="email" required>
+          <div class="form-field">
+            <label for="guest-email">Email address</label>
+            <input id="guest-email" name="email" type="email" autocomplete="email" required>
+          </div>
 
-          <label for="message">Your message</label>
-          <textarea id="message" name="message" rows="5" required></textarea>
+          <div class="form-field">
+            <label for="guest-message">Your message</label>
+            <textarea id="guest-message" name="message" rows="6" required></textarea>
+          </div>
 
           <button class="button button-dark" type="submit">Send Best Wishes</button>
           <p id="form-status" class="form-status" role="status" aria-live="polite"></p>
-          <p class="form-note">Connect this demonstration form to a form service before publishing.</p>
+          <p class="form-note">
+            This is a demonstration form. Connect it to a live form service before publishing.
+          </p>
         </form>
       </div>
     </section>
   </main>
 
-  <footer>
+  <footer class="site-footer">
     <div class="footer-seal" aria-hidden="true">A <span>&amp;</span> S</div>
     <p class="footer-names">Alex Wells &amp; Savannah Mendoza</p>
     <p>Together is a beautiful place to be.</p>
     <a href="#top">Back to top</a>
   </footer>
 
-  <dialog class="lightbox" data-dialog>
-    <button type="button" class="lightbox-close" aria-label="Close image viewer" data-close>×</button>
-    <img src="" alt="" data-dialog-image>
+  <dialog class="lightbox" data-lightbox>
+    <button class="lightbox-close" type="button" aria-label="Close photo viewer" data-lightbox-close>×</button>
+    <img src="" alt="" data-lightbox-image>
   </dialog>
 </body>
 </html>
