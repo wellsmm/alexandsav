@@ -25,6 +25,13 @@
 .announcement .announcement-logo{width:min(320px,75vw);margin:0 auto 28px}
 footer .footer-logo{width:min(200px,60vw);margin:0 auto 24px}
 @media(max-width:600px){.site-header .header-logo{width:64px}.announcement .announcement-logo{width:min(260px,75vw)}}
+#wishes-contact-form{display:grid;gap:12px;margin-top:24px}
+#wishes-contact-form label{font-weight:600}
+#wishes-contact-form input:not([hidden]),#wishes-contact-form textarea{box-sizing:border-box;width:100%;padding:12px;border:1px solid #65756b;border-radius:4px;background:#fff;color:#173427;font:inherit}
+#wishes-contact-form textarea{resize:vertical}
+#wishes-contact-form :focus-visible{outline:3px solid #173427;outline-offset:3px}
+#wishes-contact-form button{min-height:44px;cursor:pointer}
+#wishes-contact-form .form-note{font-size:.85rem;line-height:1.6}
 </style>
 </head>
 <body>
@@ -208,19 +215,16 @@ footer .footer-logo{width:min(200px,60vw);margin:0 auto 24px}
           couple as they begin this next chapter.
         </p>
 
-        <p>Best-wishes submissions will open when a delivery service is connected.</p><form id="wishes-form" hidden>
-          <label for="name">Your name</label>
-          <input id="name" name="name" type="text" autocomplete="name" required>
-
-          <label for="email">Email address</label>
-          <input id="email" name="email" type="email" autocomplete="email" required>
-
-          <label for="message">Your message</label>
-          <textarea id="message" name="message" rows="5" required></textarea>
-
+        <form id="wishes-contact-form" action="https://formspree.io/f/mrpbnjeq" method="post" aria-describedby="wishes-privacy">
+          <label for="wishes-name">Your name (required)</label>
+          <input id="wishes-name" name="name" type="text" autocomplete="name" maxlength="100" required>
+          <label for="wishes-email">Email address (optional)</label>
+          <input id="wishes-email" name="email" type="email" autocomplete="email" maxlength="254">
+          <label for="wishes-message">Your wishes for Alex and Savannah (required)</label>
+          <textarea id="wishes-message" name="message" rows="5" maxlength="5000" required></textarea>
+          <input type="text" name="_gotcha" tabindex="-1" autocomplete="off" hidden aria-hidden="true">
           <button class="button button-dark" type="submit">Send Best Wishes</button>
-          <p id="form-status" class="form-status" role="status" aria-live="polite"></p>
-          <p class="form-note">Connect this demonstration form to a form service before publishing.</p>
+          <p id="wishes-privacy" class="form-note">Your message is intended for Alex and Savannah and will not be displayed publicly. Submissions are processed by Formspree.</p>
         </form>
       </div>
     </section>
